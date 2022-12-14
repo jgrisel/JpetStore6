@@ -56,7 +56,7 @@ class ScreenTransitionIT {
     browser = CHROME;
     headless = true;
     timeout = TimeUnit.SECONDS.toMillis(10);
-    baseUrl = "http://localhost:8080/jpetstore";
+    baseUrl = "http://localhost:8280/jpetstore";
   }
 
   @AfterEach
